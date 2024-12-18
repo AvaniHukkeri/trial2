@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bgcolor{
+    background-color: rgb(255, 217, 0);
+    background-size: cover;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.nav-link:hover{
+    color: black;
+    font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(16, 0, 246);
+    font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: rgb(16, 0, 246) ;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.main{
+    background: url(./Images/freepik_br_74b61dbe-dfc5-4b50-9e12-40072efd4d08.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%; 
+    background-color: rgb(255, 217, 0);   
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 50px;
+
+}
+.main h6{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 1000px;
+}
+.btn1{
+    height: 45px;
+    width: 20%;
+    border: none;
+    outline: none;
+    background-color:  rgb(16, 0, 246) ;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    border-radius: 60px;
+    margin-left: 50px;
+}
+.btn1:hover{
+    height: 45px;
+    width: 20%;
+    border: 2px solid rgb(16, 0, 246);
+    outline: none;
+    background-color:  rgb(255, 255, 255) ;
+    color: rgb(16, 0, 246);
+    font-weight: 700;
+    border-radius: 60px;
+}
+.product h1{
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+}
+.services h1{
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+.services{
+    background-color:rgb(16, 0, 246) ;
+}
+.contact{
+    background-color:rgb(16, 0, 246) ;
+    color: white;
+}
+.services h6{
+    color: white;
+    margin-bottom: 40px;
+}
+.card:hover{
+    -webkit-box-shadow: -2px -1px 47px -4px rgba(18,18,61,1);
+    -moz-box-shadow: -2px -1px 47px -4px rgba(18,18,61,1);
+    box-shadow: -2px -1px 47px -4px rgba(18,18,61,1);
+    transition: 0.5s;
+}
+.shop h1{
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+}
+.product{
+    background-color: rgb(255, 217, 0);
+}
+.btn2{
+    height: 45px;
+    width: 40%;
+    border: none;
+    outline: none;
+    background-color:  rgb(255, 255, 255) ;
+    color:rgb(16, 0, 246);
+    font-weight: 700;
+    border-radius: 60px;
+    margin-left: 400px;
+}
+.btn2:hover{
+    height: 45px;
+    width: 40%;
+    border: 2px solid rgb(255, 255, 255) ;
+    outline: none;
+    background-color:  rgb(16, 0, 246) ;
+    color:rgb(255, 255, 255);
+    font-weight: 700;
+    border-radius: 60px;
+    margin-left: 400px;
+}
+
+.PORTFOLIOa{
+    background: url(./Images/portfolioa.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%; 
+    background-color: rgb(255, 217, 0);   
+}
+.PORTFOLIOa h1{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 10px;
+
+}
+.PORTFOLIOa h6{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.PORTFOLIOb{
+    background: url(./Images/portfolliob.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%; 
+    background-color: rgb(255, 217, 0);   
+}
+.PORTFOLIOb h1{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 1000px;
+    color: white;
+
+}
+.PORTFOLIOb h6{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 10px;
+    color: white;
+}
+
+.PORTFOLIOc{
+    background: url(./Images/portfolioc.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%; 
+    background-color: rgb(255, 217, 0);   
+}
+.PORTFOLIOc h1{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 1000px;
+    color: rgb(0, 0, 0);
+
+}
+.PORTFOLIOc h6{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.PORTFOLIOd{
+    background: url(./Images/portfoliod.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%; 
+    background-color: rgb(255, 217, 0);   
+}
+.PORTFOLIOd h1{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 1000px;
+    color: white;
+
+}
+.PORTFOLIOd h6{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 10px;
+    color: white;
+}
